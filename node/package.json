@@ -1,0 +1,33 @@
+{
+    "name": "lunar-solar-converter",
+    "version": "0.0.1",
+    "description": "A Luni-Solar Chinese Calendar Converter",
+    "keywords": [
+        "converter",
+        "calendar",
+        "chinese",
+        "converter"
+    ],
+    "bugs": {
+        "url": "https://github.com/isee15/Lunar-Solar-Calendar-Converter/issues"
+    },
+    "license": "MIT",
+    "author": {
+        "author": "Nicolas Riesco",
+        "email": "enquiries@nicolasriesco.net",
+        "url": "http://www.nicolasriesco.net/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/isee15/Lunar-Solar-Calendar-Converter.git"
+    },
+    "devDependencies": {
+        "jshint": "latest",
+        "mocha": "3"
+    },
+    "scripts": {
+        "lint": "jshint index.js test/",
+        "test:mocha": "mocha",
+        "test": "npm run lint && npm run test:mocha"
+    }
+}
